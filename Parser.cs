@@ -6,6 +6,8 @@ namespace CSVParser
 {
    public class Parser
     {
+        private string csOne;
+
         public static List<string[]> parseCSV(string path)
         {
             List<string[]> CDRs = new List<string[]>();
