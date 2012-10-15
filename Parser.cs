@@ -12,6 +12,7 @@ namespace CSVParser
 
             try
             {
+
                 StreamReader readFile = new StreamReader(path);
                 string line;
                 string[] row;
